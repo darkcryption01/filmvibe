@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin of Filmvibe</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #101010;
+    }
+    .hd1 {
+      margin-top: 20px;
+      color: white;
+    }
+
+    .hdr {
+      margin: 0;
+      background-color: black;
+      height: 60px;
+      width: 100%;
+      display: flex;
+    }
+
+    .p1 {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 5%);
+      color: limegreen;
+      font-weight: 500;
+      font-size: larger;
+    }
+
+    input[type="file"] {
+      color: yellow;
+    }
+
+    .hd3 {
+      color: white;
+      margin-top: 1000px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header class="hdr"><p class="p1">ADMIN PANEL OF FILMVIBE</p></header>
+
+  
+  <h3 class="hd1">Password</h3>
+  <input type="password" id="psswd" placeholder="password"/>
+
+  <h3 class="hd1">div creator</h3>
+  <input type="text" id="movieName" placeholder="movie name"/> <br> <br>
+  <input type="text" id="movieDescription" placeholder="movie description"/> <br> <br>
+  <input type="file" id="imageInput"/>
+  <h3 class="hd1">dir creator</h3>
+   <input type="text" id="para1" placeholder="para1"/> <br> <br>
+   <input type="text" id="movieLink" placeholder="movie link"/> <br> <br>
+   <input type="file" id="image1" multiple/> <br> <br>
+
+   <button id="sendButton">Send</button>
+
+   <h3 class="hd3">movie deleter</h3>
+   <input id="psswd2" type="password" placeholder="password"/>
+   <br><br>
+   <input id="movieName2" type="text" placeholder="movie name"/>
+   <br><br>
+   <button id="sendButton2">Send</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
